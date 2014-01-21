@@ -19,16 +19,16 @@ Installation
 
    * Install Popclip
    * [Download the extension](https://dl.dropboxusercontent.com/u/301667/popclip/PerlErrorSublime.popclipextz)
-   * Double click it
-   * Confirm that you want to install the untrused extension
+   * Double-click it
+   * Confirm that you want to install the untrusted extension
 
 Author
 ------
 
 Written by Mark Fowler
 
-http://twoshortplanks.com
-http://github.com/2shortplanks/PerlErrorSublime.popclipext
+   * http://twoshortplanks.com
+   * http://github.com/2shortplanks/PerlErrorSublime.popclipext
 
 Bugs
 ----
