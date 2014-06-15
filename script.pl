@@ -19,8 +19,6 @@ unless (file_name_is_absolute($path)) {
 # okay this is the combined filename we want to open.
 my $what = "$path:$lineno";
 
-# log what we're doing
-
 # and open it with the editor
 system(subl(),$what);
 
