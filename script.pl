@@ -95,7 +95,7 @@ sub pid_cwd {
 	my $pid = shift;
 	die "Invalid pid '$pid'" unless $pid =~ /\A[0-9]+\z/;
 
-	my @data = `/usr/sbin/lsof -a -p $pid -d cwd -n 2>/tmp/arrgh`;
+	my @data = `/usr/sbin/lsof -a -p $pid -d cwd -n 2>/dev/null`;
 	my $cwd = (split " ", $data[-1], 9)[-1];
 	chomp $cwd;
 
