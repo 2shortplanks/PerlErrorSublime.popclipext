@@ -110,7 +110,8 @@ sub terminal_cwd {
 
 # work out what the path to Sublime Text is
 sub subl {
-	my $s = `osascript -e 'POSIX path of (path to app "Sublime Text 3")' 2>/dev/null`
+	my $s = `osascript -e 'POSIX path of (path to app "Sublime Text")' 2>/dev/null`
+            `osascript -e 'POSIX path of (path to app "Sublime Text 3")' 2>/dev/null`
 	     || `osascript -e 'POSIX path of (path to app "Sublime Text 2")' 2>/dev/null`
 	     or die "Can't find subl!";
 	chomp $s;
