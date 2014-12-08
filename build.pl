@@ -37,5 +37,5 @@ build.pl - create a PerlErrorSublime.popclipextz file
    # create in directory
    ./build.pl
 
-   # create in directory and then move to ~/Dropbox/Public/
+   # create in directory and then move to ~/Dropbox/Public/popclip
    ./build.pl -d
