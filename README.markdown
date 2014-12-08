@@ -14,6 +14,9 @@ error occured on.
 Things like relative paths in the error message are handled.  With magic.
 And AppleScript.  And lsof.  Honestly, you don't want to know.
 
+Works in both Sublime Text 2 and Sublime Text 3 with autodetection, prefering
+to use the latter if both are installed.
+
 Installation
 ------------
 
